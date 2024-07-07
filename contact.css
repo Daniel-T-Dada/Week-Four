@@ -60,3 +60,11 @@ main>.buttons{
     border-radius: 8px;
     height: 50px;
 }
+.link{
+    padding-top: 20px;
+}
+.link a{
+    text-decoration: none;
+    color: #767D87;
+    
+}
