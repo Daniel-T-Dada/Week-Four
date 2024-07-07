@@ -3,4 +3,79 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
+    
+}
+:root{
+    --primary-color: #141519;
+    --gradient1-color: #212832;
+    --gradient2-color: #141b24;
+    --accent-color: #FC7613;
+    --text-color: #767D87;
+    --circle-color: #272E38;
+}
+body{
+    background: var(--primary-color);
+    color: var(--text-color);
+    margin: 0 auto;
+    max-width: 500px;
+}
+main{
+    width: 68%;
+    height: 390px;
+    background: linear-gradient(
+        var(--gradient1-color), 
+        var(--gradient2-color)
+        );
+    padding: 25px;
+    border-radius: 25px;
+    margin-top: 100px;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    background-color: var(--circle-color);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    color: var(--accent-color);
+}
+main>h2{
+    margin-top: 32px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+main>p{
+    font-size: 12px;
+    line-height: 1.8;
+    margin: 15px 0;
+
+}
+section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+section div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--circle-color);
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    font-weight: 600;
+}
+button{
+    background-color: var(--accent-color);
+    border-style: none;
+    border-radius: 25px;
+    width: 100%;
+    height: 40px;
+    font-size: 1rem;
+    font-weight: 500;
 }
